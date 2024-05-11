@@ -1,0 +1,38 @@
+{
+  "name": "add-filepath-comment",
+  "displayName": "File Path Comment",
+  "description": "A simple extension that creates a comment of the file path on the top of the editor",
+  "version": "0.0.1",
+  "publisher": "Stu",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:my-vscode-extension.addFilePathComment",
+    "onLanguage:javascript",
+    "onLanguage:jsx",
+    "onLanguage:typescript",
+    "onLanguage:tsx",
+    "onLanguage:python",
+    "onLanguage:java",
+    "onLanguage:cpp",
+    "onLanguage:c",
+    "onLanguage:csharp",
+    "onLanguage:go",
+    "onLanguage:ruby",
+    "onLanguage:php",
+    "onLanguage:swift",
+    "onLanguage:bash",
+    "onLanguage:rust",
+    "onLanguage:kotlin"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "my-vscode-extension.addFilePathComment",
+        "title": "Add File Path Comment"
+      }
+    ]
+  }
+}
