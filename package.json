@@ -8,6 +8,10 @@
     "vscode": "^1.74.0"
   },
   "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scmacoll/filepath-comment-vscode.git"
+  },
   "activationEvents": [
     "onCommand:my-vscode-extension.addFilePathComment",
     "onLanguage:javascript",
